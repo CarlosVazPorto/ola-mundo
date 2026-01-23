@@ -9,10 +9,16 @@ const Menu = () => {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <Link className={styles.link} to="/">
+                <Link className={`
+                    ${styles.link}
+                    ${localizacao.pathname === '/' ? styles.linkDestacado : ''}
+                `} to="/">
                     Início
                 </Link>
-                <Link className={styles.link} to="/sobremim">
+                <Link className={`
+                    ${styles.link}
+                    ${localizacao.pathname === '/sobremim' ? styles.linkDestacado : ''}
+                `} to="/sobremim">
                     Sobre Mim
                 </Link>
             </nav>
