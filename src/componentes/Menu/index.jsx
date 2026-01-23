@@ -5,10 +5,10 @@ const Menu = () => {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <MenuLink>
+                <MenuLink to='/'>
                     Início
                 </MenuLink>
-                <MenuLink>
+                <MenuLink to='/sobremim'>
                    Sobre Mim
                 </MenuLink>
             </nav>
