@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import styles from './MenuLink.module.css';
 
-const MenuLink = () => {
+const MenuLink = ({ children, to }) => {
     const localizacao = useLocation();
 
     return (
