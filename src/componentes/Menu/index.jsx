@@ -5,10 +5,10 @@ const Menu = () => {
         <header>
             <nav className={styles.navegacao}>
                 <a className={styles.link} href="/">
-                Início
+                    Início
                 </a>
                 <a className={styles.link} href="/sobremim">
-                Sobre Mim
+                    Sobre Mim
                 </a>
             </nav>
         </header>
