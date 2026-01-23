@@ -1,7 +1,11 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './Menu.module.css';
 
 const Menu = () => {
+    const localizacao = useLocation();
+    
+    console.log(localizacao);
+
     return (
         <header>
             <nav className={styles.navegacao}>
