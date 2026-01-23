@@ -1,26 +1,16 @@
-import { Link, useLocation } from 'react-router-dom';
 import styles from './Menu.module.css';
+import MenuLink from '../MenuLink';
 
 const Menu = () => {
-    const localizacao = useLocation();
-    
-    console.log(localizacao);
-
     return (
         <header>
             <nav className={styles.navegacao}>
-                <Link className={`
-                    ${styles.link}
-                    ${localizacao.pathname === '/' ? styles.linkDestacado : ''}
-                `} to="/">
+                <MenuLink>
                     Início
-                </Link>
-                <Link className={`
-                    ${styles.link}
-                    ${localizacao.pathname === '/sobremim' ? styles.linkDestacado : ''}
-                `} to="/sobremim">
-                    Sobre Mim
-                </Link>
+                </MenuLink>
+                <MenuLink>
+                   Sobre Mim
+                </MenuLink>
             </nav>
         </header>
     );
