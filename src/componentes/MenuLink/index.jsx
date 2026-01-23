@@ -7,9 +7,9 @@ const MenuLink = ({ children, to }) => {
     return (
         <Link className={`
             ${styles.link}
-            ${localizacao.pathname === '/' ? styles.linkDestacado : ''}
-        `} to="/">
-            Início
+            ${localizacao.pathname === to ? styles.linkDestacado : ''}
+        `} to={to}>
+            {children}
         </Link>
     );
 };
