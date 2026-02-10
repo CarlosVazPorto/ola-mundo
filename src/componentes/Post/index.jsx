@@ -10,6 +10,10 @@ const Post = ({ post }) => {
                 alt="Imagem de capa do post"
             />
 
+            <h2 className={styles.titulo}>{post.titulo}</h2>
+
+            
+
         </div>
     )
 };
