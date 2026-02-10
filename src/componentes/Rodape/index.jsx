@@ -1,5 +1,5 @@
 import styles from "./Rodape.module.css";
-import MarcaRegistrada from '@/assets/imagens/marca_registrada.svg?react'
+import MarcaRegistrada from '@/assets/imagens/marca_registrada.svg?react';
 
 const Rodape = () => {
     return (
