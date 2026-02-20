@@ -1,5 +1,6 @@
 import PostModelo from "@/componentes/PostModelo";
 import fotoCapa from '@/assets/imagens/sobre_mim_capa.png';
+import styles from './SobreMim.module.css';
 
 const SobreMim = () => {
     return (
@@ -8,7 +9,9 @@ const SobreMim = () => {
             fotoCapa={fotoCapa}
             titulo="Sobre mim"
         >
-            conteúdo...
+            <h3 className={styles.subtitulo}>
+
+            </h3>
         </PostModelo>
 
     );
