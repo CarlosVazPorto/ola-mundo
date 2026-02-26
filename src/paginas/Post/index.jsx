@@ -12,7 +12,7 @@ const Post = () => {
     return (
         <div>
             <PostModelo 
-                fotoCapa={`src/assets/posts/${post.id}/capa.png`}
+                fotoCapa={`/posts/${post.id}/capa.png`}
                 titulo={post.titulo}
             >
                 Texto
