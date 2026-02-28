@@ -16,9 +16,11 @@ const Post = () => {
                 fotoCapa={`/posts/${post.id}/capa.png`}
                 titulo={post.titulo}
             >
-                <ReactMarkdown>
-                    {post.texto}
-                </ReactMarkdown>
+                <div className="post-markdown-container">
+                    <ReactMarkdown>
+                        {post.texto}
+                    </ReactMarkdown>
+                </div>
 
             </PostModelo>
         </div>
