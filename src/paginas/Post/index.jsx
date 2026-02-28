@@ -1,3 +1,4 @@
+import "./Post.css";
 import { useParams } from "react-router-dom";
 import posts from "@/json/posts.json";
 import PostModelo from "@/componentes/PostModelo";
