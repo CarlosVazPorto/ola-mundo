@@ -13,11 +13,9 @@ const Post = () => {
 
     if (!post) {
         return (
-            <div>
                 <h1>
                     Post não encontrado!
                 </h1>
-            </div>
         );
     };
 
