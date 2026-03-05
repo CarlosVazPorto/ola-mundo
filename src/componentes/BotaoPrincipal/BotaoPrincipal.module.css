@@ -11,6 +11,12 @@
     transition: 0.2s
 }
 
+.botaoPrincipal.lg {
+    padding: 1.5rem 2.75rem;
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+}
+
 .botaoPrincipal:hover {
     border: 3px solid var(--azul-escuro);
 }
