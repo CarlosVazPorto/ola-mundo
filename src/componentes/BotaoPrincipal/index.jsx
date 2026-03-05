@@ -1,8 +1,10 @@
 import styles from './BotaoPrincipal.module.css';
 
-const BotaoPrincipal = () => {
+const BotaoPrincipal = ( { children }) => {
     return (
-        <p>botão</p>
+        <button className={styles.botaoLer}>
+            {children}
+        </button>
     );
 };
 
