@@ -2,7 +2,7 @@ import styles from './BotaoPrincipal.module.css';
 
 const BotaoPrincipal = ( { children }) => {
     return (
-        <button className={styles.botaoLer}>
+        <button className={styles.botaoPrincipal}>
             {children}
         </button>
     );
