@@ -1,4 +1,4 @@
-import styles from './BotaoPrincipal.modules.css';
+import styles from './BotaoPrincipal.module.css';
 
 const BotaoPrincipal = () => {
     return (
