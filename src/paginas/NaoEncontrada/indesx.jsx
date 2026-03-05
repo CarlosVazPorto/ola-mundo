@@ -20,7 +20,7 @@ const NaoEncontrada = () => {
                 </p>
 
                 <div className={styles.botaoContainer}>
-                    <BotaoPrincipal>Voltar</BotaoPrincipal>
+                    <BotaoPrincipal tamanho="lg">Voltar</BotaoPrincipal>
                 </div>
 
                 <img 
