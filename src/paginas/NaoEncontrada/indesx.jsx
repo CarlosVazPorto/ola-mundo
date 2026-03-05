@@ -27,7 +27,7 @@ const NaoEncontrada = () => {
                     onClick={() => navegar("/")}
                 >
                         <BotaoPrincipal tamanho="lg">
-                            Voltar
+                            Voltar ao Início
                         </BotaoPrincipal>
                 </div>
 
