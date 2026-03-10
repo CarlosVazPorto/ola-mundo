@@ -1,4 +1,5 @@
 import "./Post.css";
+import styles from "./Post.module.css";
 import { Route, Routes, useParams } from "react-router-dom";
 import posts from "@/json/posts.json";
 import PostModelo from "@/componentes/PostModelo";
@@ -39,7 +40,7 @@ const Post = () => {
                                 </ReactMarkdown>
                             </div>
 
-                            <h2>
+                            <h2 className={styles.tituloOutrosPosts}>
                                 Outros posts que você pode gostar: 
                             </h2>
                         </PostModelo>
