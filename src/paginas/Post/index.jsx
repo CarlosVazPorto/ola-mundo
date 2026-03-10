@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import posts from "@/json/posts.json";
 import PostModelo from "@/componentes/PostModelo";
 import ReactMarkdown from "react-markdown";
+import NaoEncontrada from "../NaoEncontrada/indesx";
 
 const Post = () => {
     const parametros = useParams();
@@ -13,9 +14,7 @@ const Post = () => {
 
     if (!post) {
         return (
-                <h1>
-                    Post não encontrado!
-                </h1>
+            <NaoEncontrada />
         );
     };
 
