@@ -13,3 +13,9 @@
     flex-wrap: wrap;
 }
 
+.botaoTopoWrapper {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 100;
+}
