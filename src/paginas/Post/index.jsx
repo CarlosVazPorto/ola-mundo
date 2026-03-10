@@ -6,6 +6,7 @@ import PostModelo from "@/componentes/PostModelo";
 import ReactMarkdown from "react-markdown";
 import NaoEncontrada from "../NaoEncontrada/indesx";
 import PaginaPadrao from "@/componentes/PaginaPadrao";
+import PostCard from "@/componentes/PostCard";
 
 const Post = () => {
     const parametros = useParams();
@@ -43,6 +44,14 @@ const Post = () => {
                             <h2 className={styles.tituloOutrosPosts}>
                                 Outros posts que você pode gostar: 
                             </h2>
+
+                            <ul className={styles.postsRecomendados}>
+                                {postsRecomendados.map((post) => 
+                                    <li key={post.id}>
+                                        <PostCard post={post} />
+                                    </li>
+                                )}
+                            </ul>
                         </PostModelo>
                     </div>
                 } />
