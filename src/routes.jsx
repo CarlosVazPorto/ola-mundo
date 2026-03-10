@@ -5,7 +5,7 @@ import PaginaPadrao from './componentes/PaginaPadrao';
 import Inicio from '@/paginas/Inicio';
 import SobreMim from '@/paginas/SobreMim';
 import Post from './paginas/Post';
-import NaoEncontrada from './paginas/NaoEncontrada/indesx';
+import NaoEncontrada from './paginas/NaoEncontrada';
 import Rodape from './componentes/Rodape';
 
 function AppRoutes() {
