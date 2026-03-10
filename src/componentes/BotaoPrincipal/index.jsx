@@ -1,11 +1,15 @@
 import styles from './BotaoPrincipal.module.css';
 
-const BotaoPrincipal = ( { children, tamanho }) => {
+const BotaoPrincipal = ({ children, tamanho, ...props }) => {
     return (
-        <button className={`
+        <button
+            type="button"
+            className={`
             ${styles.botaoPrincipal}
             ${styles[tamanho]}
-        `}>
+        `}
+            {...props}
+        >
             {children}
         </button>
     );
