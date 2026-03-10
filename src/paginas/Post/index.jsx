@@ -38,6 +38,10 @@ const Post = () => {
                                     {post.texto}
                                 </ReactMarkdown>
                             </div>
+
+                            <h2>
+                                Outros posts que você pode gostar: 
+                            </h2>
                         </PostModelo>
                     </div>
                 } />
