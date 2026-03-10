@@ -19,6 +19,11 @@ const Post = () => {
         );
     };
 
+    const postsRecomendados = posts
+        .filter((post) => post.id !== Number(parametros.id))
+        .sort((a, b) => (b.id - a.id))
+        .slice(0, 4);
+
     return (
         <Routes>
             <Route path="*" element={<PaginaPadrao />}>
